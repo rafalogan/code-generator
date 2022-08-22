@@ -1,0 +1,25 @@
+{
+  "name": "@rafaDWR/code-generator",
+  "version": "1.0.0",
+  "description": "This project is a POC based on video lessons of the Command Line Interface module of the Javascript Expert  course by [Erick Wendel](https://cursos.erickwendel.com.br)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --no-cache --watch --config jest.config.mjs",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafalogan/code-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafalogan/code-generator/issues"
+  },
+  "homepage": "https://github.com/rafalogan/code-generator#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
