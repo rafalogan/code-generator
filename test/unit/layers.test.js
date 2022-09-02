@@ -28,7 +28,8 @@ describe('#Layers - Folder Structure', () => {
 		expect(fs.existsSync).toHaveBeenCalledTimes(defaultLayers.length);
 		expect(fsPromises.mkdir).toHaveBeenCalledTimes(defaultLayers.length);
 
-	})
+	});
+
 	test('Should not create folders if it exists', async () => {
 		jest.spyOn(fsPromises, fsPromises.mkdir.name).mockResolvedValue();
 		jest.spyOn(fs, fs.existsSync.name).mockReturnValue(true);
@@ -37,5 +38,5 @@ describe('#Layers - Folder Structure', () => {
 
 		expect(fs.existsSync).toHaveBeenCalledTimes(defaultLayers.length);
 		expect(fsPromises.mkdir).not.toHaveBeenCalled()
-	})
+	});
 })

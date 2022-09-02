@@ -1,7 +1,7 @@
 export default`
 export default class ProductService {
-	constructor({repository: productRepository}) {
-		this.productRepository = repository;
+	constructor(productRepository) {
+		this.productRepository = productRepository;
 	}
 
 	create(data) {
