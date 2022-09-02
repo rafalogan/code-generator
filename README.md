@@ -17,6 +17,6 @@ This project is a POC based on video lessons of the Command Line Interface modul
 
 - [X] saves files as `camelCase` and classes as `PascalCase`
 
-- [ ] reaches **100% test coverage**
+- [X] reaches **100% test coverage**
 
-- [ ] integration tests should validate files on disk as a valid JS class​
+- [X] integration tests should validate files on disk as a valid JS class​

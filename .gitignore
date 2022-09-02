@@ -14,6 +14,7 @@ data/data-base
 **/database/mongodb
 \coverage
 \.nyc_output
+tmp
 
 # Modules
 node_modules

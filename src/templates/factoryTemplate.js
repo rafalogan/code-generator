@@ -16,7 +16,7 @@ export default class $$componentNameFactory {
 	static getInstance() {
 		const repository = new $$repositoryName();
 
-		return new $$serviceName({repository});
+		return new $$serviceName(repository);
 	}
 }`
 
